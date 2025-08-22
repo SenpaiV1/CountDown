@@ -1,7 +1,7 @@
 // script.js
 
 // Set a specific target date (example: January 1, 2025 at 12:00:00)
-const targetDate = new Date("December 31, 2024 23:59:59").getTime();
+const targetDate = new Date("December 31, 2025 23:59:59").getTime();
 
 // Countdown function
 function startCountdown() {
@@ -228,5 +228,6 @@ class Fireworks
         this.render();
     }
 }
+
 
 a = new Fireworks();
